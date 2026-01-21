@@ -4,7 +4,6 @@
 This project is a simulation platform for testing autonomous navigation and Computer Vision (CV) algorithms. It decouples the physical simulation from the algorithmic logic:
 - Unity (Client): Handles physics, rendering, and the "virtual robot" agent.
 - Python (Server): Processes camera images from the robot and decides movement logic (CV & RL).
-
 The goal is to test algorithms in a safe, randomized environment without expensive hardware.
 ---
 ## Architecture & Repositories
